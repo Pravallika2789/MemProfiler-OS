@@ -1,111 +1,81 @@
 # 🧠 Memory Usage Profiler & Leak Detector
 
-A modern frontend-based system monitoring dashboard designed to visualize process memory usage, identify abnormal memory behavior, and detect possible memory leaks in real time.
-
-This project helps users monitor system processes through an interactive and professional UI, providing intelligent alerts, analytics, and leak detection insights for better system performance management.
+A modern frontend-based system monitoring dashboard that visualizes process memory usage, detects abnormal patterns (possible memory leaks), and provides real-time alerts with a clean and professional UI.
 
 ---
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 
-✨ Explore the live application here:  
-👉 https://mem-profiler-os.vercel.app/
-
----
-
-# 📌 Key Features
-
-## 📊 Real-Time Memory Monitoring
-Track live memory usage of running processes with clear and interactive visualizations.
-
-## 🔍 Process Analysis
-Monitor important process details such as:
-
-- Process ID (PID)
-- RSS (Resident Set Size)
-- Virtual Memory Usage
-- Memory Growth Trends
-
-## ⚠️ Memory Leak Detection
-Detect suspicious memory behavior using trend-based analysis and threshold monitoring.
-
-## 🔔 Smart Alert System
-Processes are automatically classified into:
-
-- 🟢 Normal
-- 🟡 Warning
-- 🔴 Critical
-
-Each alert includes:
-
-- Possible reason for the issue
-- Recommended solution
-- Severity level
-
-## 📈 Interactive Analytics
-View memory usage trends using charts and graphical insights for better understanding.
-
-## 🌙 Modern Dark Mode UI
-Clean, responsive, and professional interface built for better user experience.
-
-## 🔄 Live Simulated Updates
-Real-time monitoring experience using simulated live process data.
+✨ Experience the application here:  
+👉 **[https://mem-profiler-os.vercel.app/](https://mem-profiler-os.vercel.app/)**
 
 ---
 
-# 🧠 Memory Leak Detection Logic
+## 📌 Features
 
-The application identifies abnormal memory behavior using:
-
-- Continuous memory growth tracking
-- Moving average analysis
-- Threshold-based detection
-- Time-window trend analysis
-
-This helps in detecting:
-
-- Gradual memory leaks
-- Sudden abnormal spikes
-- Long-term unstable processes
+- 📊 Real-time memory usage visualization  
+- 🔍 Process monitoring (PID, RSS, Virtual Memory)  
+- ⚠️ Memory leak detection using trend analysis  
+- 🔔 Alert system (Normal / Warning / Critical)  
+- 🧠 Intelligent alerts with reasons and suggested fixes  
+- 📈 Interactive charts and analytics  
+- 🌙 Dark mode UI with modern design  
+- 🔄 Live updates using simulated real-time data  
 
 ---
 
-# 🛠️ Tech Stack
+## 🧠 Leak Detection Logic
 
-## Frontend
-- React (Vite)
+The application detects abnormal memory behavior using:
 
-## Styling
-- Tailwind CSS
-- ShadCN UI
+- Continuous memory growth tracking  
+- Moving average analysis  
+- Threshold-based detection  
+- Time-window trend analysis  
 
-## Charts & Visualization
-- Recharts
-- Chart.js
+Processes are classified as:
 
-## State Management
-- React Hooks
+- 🟢 Normal  
+- 🟡 Suspicious  
+- 🔴 Critical  
 
-## Deployment
-- Vercel
+Each alert also provides:
+- 📌 Possible cause of the issue  
+- 🛠 Suggested solution  
 
 ---
 
-# ⚡ Getting Started
+## 🖥️ Pages
 
-## 1. Clone the Repository
+- **Home** → Overview and navigation  
+- **Dashboard** → Real-time process monitoring  
+- **Analytics** → Memory trends visualization  
+- **Alerts** → Leak detection notifications with explanations  
+- **About** → OS concepts and explanation  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (Vite)  
+- **Styling**: Tailwind CSS / ShadCN UI  
+- **Charts**: Recharts / Chart.js  
+- **State Management**: React Hooks  
+- **Deployment**: Vercel  
+
+---
+
+## ⚡ How to Run Locally
 
 ```bash
+# Clone the repo
 git clone https://github.com/your-username/memory-guardian.git
 
-##  Navigate into folder
-```bash
+# Navigate into folder
 cd memory-guardian
 
-## Install dependencies
-```bash
+# Install dependencies
 npm install
 
-##  Run project
-```bash
-npm run dev
+# Run project
+npm run dev can you rewrite this read me file in something better 
