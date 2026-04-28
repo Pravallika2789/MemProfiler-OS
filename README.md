@@ -1,81 +1,130 @@
 # 🧠 Memory Usage Profiler & Leak Detector
 
-A modern frontend-based system monitoring dashboard that visualizes process memory usage, detects abnormal patterns (possible memory leaks), and provides real-time alerts with a clean and professional UI.
+A modern frontend-based system monitoring dashboard designed to visualize process memory usage, identify abnormal memory behavior, and detect possible memory leaks in real time.
+
+This project helps users monitor system processes through an interactive and professional UI, providing intelligent alerts, analytics, and leak detection insights for better system performance management.
 
 ---
 
-## 🚀 Live Demo
+# 🚀 Live Demo
 
-✨ Experience the application here:  
-👉 **[https://mem-profiler-os.vercel.app/](https://mem-profiler-os.vercel.app/)**
-
----
-
-## 📌 Features
-
-- 📊 Real-time memory usage visualization  
-- 🔍 Process monitoring (PID, RSS, Virtual Memory)  
-- ⚠️ Memory leak detection using trend analysis  
-- 🔔 Alert system (Normal / Warning / Critical)  
-- 🧠 Intelligent alerts with reasons and suggested fixes  
-- 📈 Interactive charts and analytics  
-- 🌙 Dark mode UI with modern design  
-- 🔄 Live updates using simulated real-time data  
+✨ Explore the live application here:  
+👉 https://mem-profiler-os.vercel.app/
 
 ---
 
-## 🧠 Leak Detection Logic
+# 📌 Key Features
 
-The application detects abnormal memory behavior using:
+## 📊 Real-Time Memory Monitoring
+Track live memory usage of running processes with clear and interactive visualizations.
 
-- Continuous memory growth tracking  
-- Moving average analysis  
-- Threshold-based detection  
-- Time-window trend analysis  
+## 🔍 Process Analysis
+Monitor important process details such as:
 
-Processes are classified as:
+- Process ID (PID)
+- RSS (Resident Set Size)
+- Virtual Memory Usage
+- Memory Growth Trends
 
-- 🟢 Normal  
-- 🟡 Suspicious  
-- 🔴 Critical  
+## ⚠️ Memory Leak Detection
+Detect suspicious memory behavior using trend-based analysis and threshold monitoring.
 
-Each alert also provides:
-- 📌 Possible cause of the issue  
-- 🛠 Suggested solution  
+## 🔔 Smart Alert System
+Processes are automatically classified into:
+
+- 🟢 Normal
+- 🟡 Warning
+- 🔴 Critical
+
+Each alert includes:
+
+- Possible reason for the issue
+- Recommended solution
+- Severity level
+
+## 📈 Interactive Analytics
+View memory usage trends using charts and graphical insights for better understanding.
+
+## 🌙 Modern Dark Mode UI
+Clean, responsive, and professional interface built for better user experience.
+
+## 🔄 Live Simulated Updates
+Real-time monitoring experience using simulated live process data.
 
 ---
 
-## 🖥️ Pages
+# 🧠 Memory Leak Detection Logic
 
-- **Home** → Overview and navigation  
-- **Dashboard** → Real-time process monitoring  
-- **Analytics** → Memory trends visualization  
-- **Alerts** → Leak detection notifications with explanations  
-- **About** → OS concepts and explanation  
+The application identifies abnormal memory behavior using:
 
----
+- Continuous memory growth tracking
+- Moving average analysis
+- Threshold-based detection
+- Time-window trend analysis
 
-## 🛠️ Tech Stack
+This helps in detecting:
 
-- **Frontend**: React (Vite)  
-- **Styling**: Tailwind CSS / ShadCN UI  
-- **Charts**: Recharts / Chart.js  
-- **State Management**: React Hooks  
-- **Deployment**: Vercel  
+- Gradual memory leaks
+- Sudden abnormal spikes
+- Long-term unstable processes
 
 ---
 
-## ⚡ How to Run Locally
+# 🖥️ Application Pages
+
+## 🏠 Home
+Project overview and quick navigation.
+
+## 📋 Dashboard
+Real-time process monitoring and system overview.
+
+## 📊 Analytics
+Detailed charts and memory usage trends.
+
+## 🚨 Alerts
+Leak detection notifications with explanations and suggested fixes.
+
+## ℹ️ About
+Concepts related to Operating Systems and memory management explained clearly.
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React (Vite)
+
+## Styling
+- Tailwind CSS
+- ShadCN UI
+
+## Charts & Visualization
+- Recharts
+- Chart.js
+
+## State Management
+- React Hooks
+
+## Deployment
+- Vercel
+
+---
+
+# ⚡ Getting Started
+
+## 1. Clone the Repository
 
 ```bash
-# Clone the repo
 git clone https://github.com/your-username/memory-guardian.git
 
-# Navigate into folder
+##  Navigate into folder
+```bash
 cd memory-guardian
 
-# Install dependencies
+## Install dependencies
+```bash
 npm install
 
-# Run project
+##  Run project
+```bash
 npm run dev
