@@ -70,25 +70,6 @@ This helps in detecting:
 
 ---
 
-# 🖥️ Application Pages
-
-## 🏠 Home
-Project overview and quick navigation.
-
-## 📋 Dashboard
-Real-time process monitoring and system overview.
-
-## 📊 Analytics
-Detailed charts and memory usage trends.
-
-## 🚨 Alerts
-Leak detection notifications with explanations and suggested fixes.
-
-## ℹ️ About
-Concepts related to Operating Systems and memory management explained clearly.
-
----
-
 # 🛠️ Tech Stack
 
 ## Frontend
